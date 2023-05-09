@@ -1,0 +1,9 @@
+a = input("第一個整數") 
+b = input("第二個整數")
+print(a, b) # 5, 10
+
+c = a 
+a = b
+b = c
+
+print(a, b) # 10, 5
