@@ -1,0 +1,3 @@
+x = input()
+f = {i : x.count(i) for i in x}
+print(f)
