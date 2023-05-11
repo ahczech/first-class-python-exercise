@@ -1,0 +1,22 @@
+x = input() # 20
+n = int(x) 
+f = []
+def isPrime(n):
+  for a in range(2,n):
+    if n % a == 0:
+      return False
+    else:
+      pass
+  return True
+def prime(n):
+  for b in range(2,n):
+    if b == 2:
+      f.append(b)
+    elif isPrime(b) == True:
+      f.append(b)
+    else:
+      pass
+
+prime(n)
+
+print(f) # 2, 3, 5, 7, 11, 13, 17, 19
