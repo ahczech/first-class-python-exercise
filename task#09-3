@@ -1,0 +1,9 @@
+def f(*args):
+  b = 0
+  for a in args:
+    b = b + a
+  return b
+    
+
+print(f(1, 2, 3)) # 6
+print(f(1, 2, 3, 4, 5)) # 15
